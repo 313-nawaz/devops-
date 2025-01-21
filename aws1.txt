@@ -1,0 +1,29 @@
+1. What Is AWS And Why Is It So Popular?
+Amazon Web Services (AWS), is an important cloud computing platform known for its wide service offerings. Its popularity is developed through its scalability, cost-effectiveness, and global infrastructure. Businesses increased the AWS to efficiently scale operations, reduce costs, and innovate rapidly.
+
+2. Explain The Key Components Of AWS.
+AWS provides the fundamental components crucial for cloud computing such as EC2 provides scalable computing capabilities, S3 offers storage for all kinds of files, RDS manages many kinds of databases, and IAM ensures secured access through addressing Authentication and Authorization. These components collectively empower the users to create and deploy various applications seamlessly.
+
+3. What Is An EC2 Instance And How Does It Work?
+An EC2 instance stands for Elastic Cloud Compute service, It is a virtual server in the cloud. When we launch this, it will run the selected operating system with a specified application stack. For instance, you can deploy a web server or a database in this EC2 service. It can also be configured for specific computing needs, making it a flexible and scalable solution.
+
+4. Describe The Difference Between S3 And EBS In AWS.
+S3 ( Simple Storage Service ) is an object storage service suitable for storing various data types of files that can accessed through the internet. In contrast, EBS ( Elastic Block storage ) is a block-level storage attached to EC2 instances, offering persistent and high-performance storage for applications like databases. EBS provides the raw storage hardware helpful for I/O operations where as S3 comes with pre configured file system. For understaning think of S3 as a file storage system and EBS as a hard drive.
+
+5. How Does Auto Scaling Work In AWS?
+Auto Scaling is an aws service that provides dynamically adjusts, on running the number of EC2 instances based on traffic demand. For instance, during the high traffic periods, Auto Scaling adds instances , improving optimal performance as per the policies configuration. Conversely, while during low traffic, it will reduce the number of instances , optimizes the cost efficiency maintaining high availability.
+
+6. What Is The AWS Free Tier, And What Services Are Included?
+The AWS Free Tier provides a set of AWS services for limited at no cost for the duration of 12 months. The services include EC2, S3, Lambda etc.. This helps the users to explore and experiment with AWS services without suffering with charges and helps in making a kick starting point for cloud beginners.
+
+7. What Is Elastic Load Balancing (ELB) And How Does It Function?
+Elastic Load balancer ( ELB ) is a service provided by AWS that helps in distribution of incoming traffic of the applications across multi targets such as EC2 instances, containers etc.. in one or more Availability zones. It helps in improving fault tolerance and ensuring the utilization of resources, bringing high availability of the application by preventing a single node ( instance ) faulterance by improving application's resilience.
+
+8. How Is Data Transfer Handled In AWS?
+The data transfer in AWS happens in between regions, within regions, and between the services. It is essential to consider that these data transfer comes with costs when designing the architectures. For example, transfer of the data between an EC2 instance and an S3 bucket within the same region is often free, but the transfer of data in between inter-region comes with charges.
+
+9. What Is Amazon RDS, And What Database Engines Does It Support?
+Amazon RDS ( Relational Database system) is a managed relational database service that deals with essential hardware infrastructure of Amazon. It supports for the various database engines such as MySQL, SQL Server, Oracle, PostgreSQL and MariaDB. RDS involves in simplifying the database administration tasks on inclusion of backups, software patching, and scaling. It helps the developers to focus on logic of the application rather than focusing on infrastructure setup and management.
+
+10. Explain The Concept Of AWS Identity And Access Management (IAM).
+IAM stands for Identity Access Management, a security AWS service that provides Authentication and Authorization to AWS services and resources. It involves in creating users, assigning permissions through policies, and then setting up the multi-factor authentication. For example, IAM will grant read-only access for specific users to the S3 buckets or full administrative access to EC2 instances
