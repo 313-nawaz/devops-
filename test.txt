@@ -1,0 +1,320 @@
+2.create user
+     |
+security
+   |
+create access key
+   |
+command line interface 
+     |
+next
+  |
+wriye tag value
+       |
+ download csv file
+      | 
+     done
+      |
+go to command prompt
+       |
+ #aws --version
+ #aws configure
+      |
+Access key ID (past)
+      |
+Secret access key (past)
+
+
+3.1)S3 Standard
+  2)S3 Intelligent-Tiering 
+  3)S3 Standard-IA
+  4)S3 One Zone-IA
+  5)S3 Glacier Instant Retrieval
+  6)S3 Glacier Flexible Retrieval
+
+
+ 5.Dashboards
+    |
+creat Dashboards
+     |
+ write-Dashboard name
+      |
+.number
+  |
+next
+ |
+custom 5min
+  |
+ create
+
+19. scalability
+cost savings
+speed
+productivity
+security
+disaster recovery
+
+15.web service that automates the process of sending notifications to the subscribers attached to it with the help of email, SMS etc
+  
+
+8.creat 1 server
+      |
+instance
+  |
+server-1 name
+  | 
+Linux
+  |
+select key
+  |
+creat
+ |
+copy example
+ |
+open git bash
+ |
+past the example
+ |
+#sudo su
+#yum update -y
+#yum install httpd -y
+#systemctl start httpd
+#systemctl status httpd
+#cd
+#cd /var/www/html
+#ls
+#cat >index.html
+<html>
+<h1>
+"how are you"
+</h1>
+</html>
+
+the backup of the machine
+
+ create image
+  |
+AMIs
+ |
+status available
+|
+terminate server-1
+|
+create server -2
+| 
+AMI
+|
+key
+|
+create
+|
+copy public IP address
+|
+past in browser
+
+
+18.private cloud:-this type of cloud is available for the single user
+.public cloud:-this cloud is available for the public use
+.hybrid cloud:-this is the combination of the both public and private cloud
+
+3.On-premise
+The software is installed and runs on the company's own hardware and infrastructure, which is hosted locally
+
+Cloud
+The software is stored and managed on a third-party provider's servers, and accessed through the web
+
+1.The full form of Amazon EBS is Amazon Elastic Block Store	
+  The full form of Amazon EFS is Amazon Elastic File System
+
+  It is used to provide the block-level storage volumes for the use of EC2 instances	
+  It is simple to use
+  
+  It is mainly used for data that should be quickly accessible and requires long term durability	
+
+5, Open the CloudWatch console 
+     |
+choose Alarms
+     |
+Choose Create alarm
+     |
+Choose Select Metric
+     |
+choose EC2
+ |
+check box in the row with the correct instance 
+ |
+Choose the metrics
+   |
+choose Average 
+  |
+Choose a period 
+  |
+Select metric 
+    |
+choose Static
+    |
+Choose Next
+   |
+choose an existing SNS topic
+   |
+
+choose In alarm
+ |
+Choose Next
+  |
+Enter a name for the alarm
+ | 
+Then choose Next
+ |
+confirm that the information and conditions
+ |
+then choose Create alarm
+
+6.to create alaram in cloudwatch
+.we should create ec2 server 
+.and the dublicate the aws and create one more aws
+.so that we can create clockwatch 
+.create clockwatch 
+.and then create IAM 
+.then set the time in clockwatch that is (5 minutes)
+.then choose the location 
+.then choose the number in the sence (you want it in the form of number, graphs, data, pia chart ect)
+.then set the alaram 
+.wait for 5 min the alaram will ring 
+.before ringing it will show (1) that means it have to complete the task (it will show that in task bar)
+.after ringing the alaram the server will automatically terminate 
+.we should terminate the IAM 
+.and also terminate clockwatch
+
+
+
+12. instance
+      |
+    server1-windows
+      |
+     windows
+      |
+     key
+      |
+     create
+copy server1 -example
+
+ EBS volume
+|
+create volume
+|
+name:-apx-01
+|
+5GB
+|
+create
+|
+action
+|
+acttach
+|
+server1-windows
+
+
+
+
+open window machine
+ |
+diskmgmt.msc
+ |
+online
+|
+>GPD
+|
+created EBS volume
+  
+
+instance
+|
+server1
+|
+create image
+|
+AMIs
+ |
+status available
+|
+terminate server-1
+|
+create server -2
+| 
+AMI
+|
+key
+|
+create
+|
+past 1 server example
+|
+open window machine
+|
+diskmgmt.msc
+|
+online
+
+11.*cloud computing means the data that stored in the cloud and that can be featched 
+ any time and from anywhere is known as cloud computing.
+
+*key pair means we have to genarate the key pair to 
+ connect any server that is known as key pair.
+
+*ec2 server means we have to create the server on ec2 and then we should connect 
+ the server with another server that is known as ec2 server.
+
+16.CDN 
+.we should create ec2 server
+.and duplicate the server and create the cdn 
+.create the bucket first
+.and create the IAM as well 
+.then start creating cdn 
+.give some unique name for cdn 
+.then upload the file 
+.then go to policy and then copy and paste it there 
+.after that click (ok) for ferther steps
+.and then go to the distribution id copy the id 
+.and paste thedistributin id in the browser
+.you will see the file there which you had uploaded
+
+
+
+9.create buket
+  |
+buket name:-naw01
+|
+block all
+|
+versioning :-enable
+|
+create
+ 
+
+ 
+upload
+|
+add files
+|
+file1
+file2
+file3
+|
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
